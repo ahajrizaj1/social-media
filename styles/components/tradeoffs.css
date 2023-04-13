@@ -1,0 +1,65 @@
+.tradeoffs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tradeoffs__title {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tradeoffs__ul-wrapper {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.tradeoffs__ul {
+    flex: 1;
+    
+}
+
+.pro {
+    list-style-type: '\1F44D';
+}
+
+.con {
+    list-style-type: '\1F44E';
+}
+
+.tradeoffs__list-pro, .tradeoffs__list-con {
+    margin-bottom: 1rem;
+}
+
+
+.tradeoffs__subtitle {
+    margin-bottom: 1.5rem;
+}
+
+
+/* xs */
+/* @media (min-width: 475px){} */
+
+/* sm */
+/* @media (min-width: 640px){} */
+
+/* md */
+@media (min-width: 768px){
+    .tradeoffs__title{
+        font-size: 1.5rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px){
+    .tradeoffs__title {
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px){} */
+
+/* 2xl */
+/* @media (min-width: 1536px){} */

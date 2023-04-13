@@ -1,0 +1,103 @@
+ .header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.header__button-wrapper{
+    display: none;
+}
+
+.header__bars {
+    width: 30px;
+    height: 30px;
+    color: black;
+    display: block;
+    background: none;
+    border: none;
+}
+
+.header__menu {
+    display: none;
+}
+
+/* xs */
+/* @media (min-width: 475px){} */
+
+/* sm */
+/* @media (min-width: 640px){} */
+
+/* md */
+@media (min-width: 768px){
+    .header__bars{ 
+        display: none;
+    }
+    .header__menu{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+    }
+    .header__link {
+        text-decoration: none;
+        color: black;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+    
+    .header__button-login{
+        display: inline-block;
+        background: none;
+        width: 6rem;
+        font-size: 1rem;
+        height: 2rem;
+        font-weight: 600;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .header__button-login:hover{
+        background-color: black;
+        color: white;
+    }
+    .header__button-signup{
+        display: inline-block;
+        background: none;
+        width: 6rem;
+        font-size: 1rem;
+        height: 2rem;
+        font-weight: 600;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .header__button-signup:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .header__button-wrapper{
+        display: flex;
+        gap: 0.1rem;
+    }
+}
+
+/* lg */
+/* @media (min-width: 1024px){} */
+
+/* xl */
+@media (min-width: 1280px){
+    .header__menu{
+        gap: 3rem;
+        font-size: 1rem;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+    .header__menu{
+        gap: 4rem;
+    }
+}
