@@ -12,6 +12,7 @@
 .footer__icons-wrapper{
     display: flex;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .footer__icons-wrapper button{
